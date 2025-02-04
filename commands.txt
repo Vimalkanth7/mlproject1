@@ -10,6 +10,8 @@ make sure installation happens and no need for any approvals
 
 conda activate venv
 
+conda install --file requirements.txt
+
 
 Git commands 
 echo "# mlproject1" >> README.md
@@ -27,9 +29,15 @@ git remote add origin https://github.com/Vimalkanth7/mlproject1.git
 --> to sync
 git remote -v     --> see the sync and where the origin is
 
+git push -u origin main       --> from origin to main commit happens
+
+
+Adding New files to github repo
 
 git add .      -->adding new files to git
-
+git status
+git commit -m "setup commit" 
+git push -u origin main 
 
 Incase using git for the 1st time uste this to setup
 
