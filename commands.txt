@@ -1,0 +1,48 @@
+commands end to end data science project
+
+
+
+creating an conda env
+conda create -p venv python==3.8 -y
+conda create --name mlenv python=3.9 -y   
+
+make sure installation happens and no need for any approvals
+
+conda activate venv
+
+
+Git commands 
+echo "# mlproject1" >> README.md
+git init             --> initialize the empyty git repos
+git add README.md          --> to write the descriptions
+git commit -m "first commit"    --> one file change and 1 insertion happens
+git status                  --> shows the untracked files
+
+git branch -M main     --> push the files to git
+
+git pull                -->all the updation happens
+
+git remote add origin https://github.com/Vimalkanth7/mlproject1.git
+
+--> to sync
+git remote -v     --> see the sync and where the origin is
+
+
+git add .      -->adding new files to git
+
+
+Incase using git for the 1st time uste this to setup
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+git push -u origin main       --> from origin to main commit happens
+
+
+
+
+
+
+git remote add origin https://github.com/Vimalkanth7/mlproject1.git
+git branch -M main
+git push -u origin main
