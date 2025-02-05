@@ -1,7 +1,7 @@
 from setuptools import find_packages,setup
 from typing import List
 
-HYPEN_EDOT = '-e .'
+# HYPEN_EDOT = '-e .'
 
 def get_requirements(file_path:str)->List[str]:
     '''This func will return the list of req'''
@@ -10,8 +10,8 @@ def get_requirements(file_path:str)->List[str]:
         requirements=file_obj.readlines()
         requirements=[req.replace("\n", "") for req in requirements] 
 
-        if HYPEN_EDOT in requirements:
-            requirements.remove(HYPEN_EDOT)
+        # if HYPEN_EDOT in requirements:
+        #     requirements.remove(HYPEN_EDOT)
 
     return requirements
 
