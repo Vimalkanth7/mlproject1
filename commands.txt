@@ -54,3 +54,17 @@ git push -u origin main       --> from origin to main commit happens
 git remote add origin https://github.com/Vimalkanth7/mlproject1.git
 git branch -M main
 git push -u origin main
+
+
+
+
+
+
+
+
+  the data ingestion file
+
+python -m src.components.data_ingestion
+
+
+['', 'C:\\Users\\vimal.MSI\\anaconda3\\python312.zip', 'C:\\Users\\vimal.MSI\\anaconda3\\DLLs', 'C:\\Users\\vimal.MSI\\anaconda3\\Lib', 'C:\\Users\\vimal.MSI\\anaconda3', 'C:\\Users\\vimal.MSI\\OneDrive\\Desktop\\data_science_preparation\\Freelance\\trails\\myenv', 'C:\\Users\\vimal.MSI\\OneDrive\\Desktop\\data_science_preparation\\Freelance\\trails\\myenv\\Lib\\site-packages']
